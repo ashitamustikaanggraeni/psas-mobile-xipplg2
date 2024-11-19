@@ -13,7 +13,7 @@ class page2 extends StatelessWidget {
               Container(
                 height: 100,
                 width: 100,
-                color: Colors.red,
+                color: Colors.green,
               ),
               Container(
                 height: 100,
@@ -27,26 +27,12 @@ class page2 extends StatelessWidget {
               Container(
                 height: 100,
                 width: 100,
-                color: Colors.blue,
+                color: Colors.green,
               ),
               Container(
                 height: 100,
                 width: 100,
-                color: Colors.amber,
-              ),
-            ],
-          ),
-          Column(
-            children: [
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.white,
-              ),
-              Container(
-                height: 100,
-                width: 100,
-                color: Colors.black,
+                color: Colors.green,
               ),
             ],
           ),
@@ -55,12 +41,26 @@ class page2 extends StatelessWidget {
               Container(
                 height: 100,
                 width: 100,
-                color: Color.fromARGB(255, 175, 76, 134),
+                color: Colors.green,
               ),
               Container(
                 height: 100,
                 width: 100,
-                color: Color.fromARGB(255, 155, 76, 175),
+                color: Colors.green,
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              Container(
+                height: 100,
+                width: 100,
+                color: Color.fromARGB(255, 76, 175, 92),
+              ),
+              Container(
+                height: 100,
+                width: 100,
+                color: Color.fromARGB(255, 76, 175, 89),
               ),
             ],
           ),
